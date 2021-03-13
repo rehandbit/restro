@@ -1,0 +1,88 @@
+a:hover{
+   text-decoration: none;
+}
+
+
+.relative {
+   position: relative;
+   width: 1200px;
+   height: 1000px;
+   
+}
+/* sticky css */
+
+#sticky {
+   position: sticky;
+   top: 0;
+   z-index: 3;
+   border-bottom: 1px solid gainsboro;
+   background-color: whitesmoke;
+   font-size: 15px;
+   width: 1200px;
+   height: 164px;
+   border-bottom: 1px solid gray;
+}
+
+span {
+   justify-content: space-between;
+   margin: 20px 19px 0px 20px ;
+}
+ #overview {
+    margin-top: 16px;
+    font-size: 21px;
+    margin-left: 25px; 
+ }
+
+ .details {
+    margin-left: 50px;
+    margin-bottom: 0rem;
+    color: gray;
+ }
+/* //css of left side */
+
+.leftside {
+   position: absolute;
+   width: 200px;
+   height: 400px;
+   color: red;
+   padding-right: 10px;
+   
+   margin: 10px;
+}
+.leftitem {
+   color: red;
+   border-right: 5px solid pink;
+   background-color: yellow;
+   margin: 10px;
+   font-size: 24px;
+}
+.itembox {
+   font-size: medium;
+}
+.review {
+   float: right;
+   top : 0px;
+}
+
+/* middle section css */
+.middlesection {
+   position:absolute;
+   width: 650px;
+   height: 800px;
+   left:250px;
+   
+}
+.over-view {
+   border-bottom : 4px solid palevioletred;
+   color: darkred;
+   background-image: linear-gradient(rgb(232, 227, 227), #DB7093);
+   border-radius: 6px;
+   padding: 5px;
+}
+.checkoutsection {
+   position:absolute;
+   width:280px;
+   height: 600px;
+   right: 0;
+   background-color: aqua;
+}

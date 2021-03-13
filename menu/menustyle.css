@@ -1,0 +1,107 @@
+/* website link a href modification  */
+
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.relative {
+   position: relative;
+   width: 1200px;
+   height: 2000px;
+}
+/* sticky css */
+
+#sticky {
+   position: sticky;
+   
+   z-index: 3;
+   border-bottom: 1px solid gainsboro;
+   background-color: whitesmoke;
+   font-size: 15px;
+   width: 1200px;
+   height: 164px;
+   border-bottom: 1px solid gray;}
+
+span {
+   justify-content: space-between;
+   margin: 20px 19px 0px 20px ;
+}
+ #overview {
+    margin-top: 16px;
+    font-size: 21px;
+    margin-left: 25px;
+   
+ }
+ .details {
+    margin-left: 50px;
+    margin-bottom: 0rem;
+    color: gray;
+ }
+
+.review {
+   float: right;
+   top : 0px;
+}
+
+/* middle section css */
+.middlesection {
+   position:absolute;
+   margin-top: 30px;
+   width: 650px;
+   height: 1000px;
+   left:250px;
+   border-left: 0.2px solid #CFCFCF;
+  
+}
+.menu-online {
+   border-bottom : 4px solid palevioletred;
+   color: darkred;
+   background-image: linear-gradient(rgb(232, 227, 227), #DB7093);
+   border-radius: 6px;
+   padding: 5px;
+}
+.snocolumn {
+   width: 100px;
+   text-align: left;
+}
+.cartbtn {
+   width: 150px;
+   text-align: end;
+}
+.pricecolumn {
+   width: 150px;
+   text-align: center;
+}
+
+/* checkout section  */
+.checkoutsection {
+   position:absolute;
+   width:280px;
+   height: 600px;
+   right: 0;
+   background-color: aqua;
+}
+.table {
+   margin-bottom: 0; }
+   
+    
